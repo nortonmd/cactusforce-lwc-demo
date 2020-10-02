@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Query Accounts" icon-name="custom:custom63">
+      <div class="slds-var-m-around_medium">
+        <p class="slds-var-m-bottom_small">
+          <lightning-button
+            label="Load Accounts"
+            onclick={handleLoad}
+          ></lightning-button>
+        </p>
+        <template if:true={accounts}>
+          <template for:each={accounts} for:item="account">
+            <p key={account.Id}>{account.Name}</p>
+          </template>
+        </template>
+        <template if:true={error}>
+          <p>{error}</p>
+        </template>
+      </div>
+    </lightning-card>
+  </template>
