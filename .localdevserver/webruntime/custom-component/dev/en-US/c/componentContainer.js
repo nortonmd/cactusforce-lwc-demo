@@ -1,1 +1,0 @@
-{"errors":[{"filename":"/Users/michael.norton/workspace/cactus-force/lwc-demo/force-app/main/default/lwc/componentContainer/componentContainer.html","location":{"line":4,"column":42,"start":88,"length":17},"code":"","message":"phoneNumber='480' is not valid attribute for c-cforce-demo-component. All attributes name should be all lowercase."}]}
